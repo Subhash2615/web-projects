@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .weather-app {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  #cityInput {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #searchBtn {
+    padding: 10px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #searchBtn:hover {
+    background: #0056b3;
+  }
+  
+  .weather-result {
+    margin-top: 20px;
+  }
+  
+  #cityName {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  #temperature {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  #weatherCondition {
+    font-size: 1em;
+    color: #888;
+  }
+  
+  #weatherIcon {
+    width: 100px;
+    margin-top: 10px;
+  }
+  
